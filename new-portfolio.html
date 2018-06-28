@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+
     </head>
 
 
@@ -21,14 +23,16 @@
 
         </nav>
 
-            <div class="container">
+            <div class="jumbotron">
+
+                <div class="container">
 
                     <div class="row">
 
                         <div class="col-lg-8">
             
                             <h1>About Me</h1>
-            
+
                         </div>
 
                     </div>
@@ -46,6 +50,8 @@
                     </div>
 
                 </div>
+
+            </div>
 
             <div class="container">
 
@@ -65,17 +71,40 @@
 
         </div>
 
-                <div class="container">
+        <div>
 
-                    <div class="row">
+            <div class="container" id="media">
 
-                        <img src="GitHub Logo.png" style="width: 200px; height: 200px;">
+                <div class="row">
 
-                        <img src="LinkedIn Logo.jpg" style="width: 200px; height: 200px;">
+                    <div class="col-lg-8">
+
+                        <P>Follow Me!</P>
 
                     </div>
 
                 </div>
+
+            </div>
+
+        </div>
+
+                <div class="container">
+
+                    <div class="row">
+
+                        <a href="https://github.com/ZMateen"><img src="GitHub Logo.png" style="width: 200px; height: 200px;"></a>
+
+                        <a href="https://www.linkedin.com/in/zaria-mateen-597855149/"><img src="LinkedIn Logo.jpg" style="width: 200px; height: 200px;"></a>
+
+                    </div>
+
+                </div>
+
+                <br>
+                <br>
+
+                <div class="jumbotron">
 
                 <div class="container">
 
@@ -98,9 +127,33 @@
 
                     <div class="row">
 
-                        <div class="col-lg-8">zmateen43@gmail.com</div>
+                        <div class="col-lg-8">Email: zmateen43@gmail.com</div>
 
                     </div>
+
+                </div>
+
+                <div class="container">
+
+                    <div id="form">
+
+                    <label for="fname">First Name</label>
+
+                    <input type="text" id="fname" name="firstname" placeholder="Your Name Here...">
+
+                    <label for="lname">Last Name</label>
+
+                    <input type="text" id="lname" name="lastname" placeholder="Your Last Name Here...">
+
+                    <label for="subject">Subject</label>
+                    
+                    <textarea id='subject' name="subject" placeholder="Write Me..." style="height: 200px"></textarea>
+
+                    <input type="submit" value="Submit">
+
+                    </div>
+
+                 </div>
 
                 </div>
 
@@ -117,21 +170,79 @@
 
                         </div>
 
+                        <div class="card" style="width: 18rem;">
+
+                            <div class="card-body">
+
+                                <h5 class="card-title">Giphy Find</h5>
+
+                                <a href="https://github.com/ZMateen/Giphy-Find" class="card-link">Code Link</a>
+
+                            </div>
+
+                        </div>
+
+                        <div class="card" style="width: 18rem;">
+
+                            <div class="card-body">
+
+                                <h6 class="card-title">Train Schedule</h6>
+
+                                <a href="https://github.com/ZMateen/Train-Schedule-" class="card-link">Code Link</a>
+
+                            </div>
+                            
+                        </div>
+
                     </div>
 
-                </div>
-
-                <div class="container">
-
-                    <div class="row">
-
-                        <div class
-                    </div>
                 </div>
 
             </div>
 
         </div>
 
+        <style>
+
+           body {
+               font-family: 'Fira Sans', sans-serif;
+           }
+
+           #media {
+               width: 150%;
+               text-align: right;
+           }
+
+           input [type=text], select, textarea {
+               width: 100%;
+               padding: 12px;
+               box-sizing: border-box;
+               margin-top: 6px;
+               margin-bottom: 16px;
+               resize: vertical;
+           } 
+
+           input [type=submit] {
+               background-color: black;
+               color: white;
+               padding: 12px 20px;
+               border: none;
+               border-radius: 4px;
+           }
+
+           .form {
+               border-radius: 5px;
+               padding: 20px;
+           }
+
+        
+        
+        
+        
+        
+        
+        </style>
 
     </body>
+
+    </html>
